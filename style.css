@@ -1,5 +1,4 @@
-/* flexbox layout */
-
+/* general */
 .cont-one,
 .cont-two,
 .cont-three,
@@ -8,33 +7,95 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0px 300px;
+    font-family: roboto, sans-serif;
 }
 
 img {
-    width: 300px;
+    width: 250px;
 }
 
-.intro,
-.info,
-.banner {
+
+
+/* container one */
+.header {
     display: flex;
-    flex-direction: row;
+    margin: 0 350px;
+
 }
 
+.header-link {
+    margin: 0;
+    padding: 0;
+}
+.header-link li {
+    display: inline;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.intro .words {
+    flex-wrap: wrap;
+    align-self: center;
+    width: 50%;
+}
+
+.intro img {
+    width: 50%;
+}
+
+/* container two */
+.cont-two .title {
+    padding: 24px 0;
+}
+
+.info {
+    display: flex;
+}
+
+.info .pairs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+.pairs p {
+    text-align: center;
+}
+
+/* container three */
 .cont-quote {
     display: flex;
     flex-direction: column;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header-link li {
-    display: inline;
+    padding: 192px;
 }
 
 .author {
     align-self: flex-end;
 }
+
+/* container four */
+.banner {
+    display: flex;
+    padding: 36px 48px;
+}
+
+.banner .words {
+    padding: 0 96px;
+}
+
+.cont-signup {
+    display: flex;
+    align-items: center;
+}
+
+.sign-up {
+    padding: 4px 36px;
+}
+
+/* container five */
