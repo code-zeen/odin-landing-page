@@ -1,0 +1,40 @@
+/* flexbox layout */
+
+.cont-one,
+.cont-two,
+.cont-three,
+.cont-four,
+.cont-five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 300px;
+}
+
+.intro,
+.info,
+.banner {
+    display: flex;
+    flex-direction: row;
+}
+
+.cont-quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link li {
+    display: inline;
+}
+
+.author {
+    align-self: flex-end;
+}
