@@ -36,7 +36,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 300px;
+    margin: 20px 300px;
 }
 
 .logo {
@@ -120,6 +120,7 @@ ul {
 
 .info {
     display: flex;
+    justify-content: center;
     margin: 0 300px;
 }
 
@@ -127,11 +128,19 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 24px;
+    padding: 24px 0;
+    width: 200px;
+}
+
+.pairs img {
+    border-radius: 8px;
+    border: solid 3px #3882F6;
+    width: 150px;
 }
 
 .pairs p {
     text-align: center;
+    padding: 0 16px;
 }
 
 /* container three */
